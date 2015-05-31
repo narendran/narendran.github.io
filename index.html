@@ -3,21 +3,22 @@ layout: default
 ---
 
 <div class="home">
+  I am a second year graduate student at UC San Diego. I am interested in systems, networks and machine learning. I am advised by <a href="http://weibel.ucsd.edu/">Dr. Nadir Weibel</a>.
 
-  <h1 class="page-heading">Posts</h1>
+  <br/><br/>
+  <h2>Current Projects</h2>
+  <ul class="projects">
+    
+    <li>
+    <a class="project-link" href="http://pircnet.ucsd.edu">Primary Infection Research Cohort Network</a>
+      Building relationships graphs from social media and exploring ways to understand if those graphs can help doctors characterize outbreaks of life-threatening infectious diseases like AIDS.
+    </li>
+    <br/>
+    <li>
+    <a class="project-link" href="https://github.com/WeibelLab/eyehome/wiki">eyeHome</a>
+    An assistive system to enable people with motor neuron diseases like Locked-In syndrome, ALS etc. to be able to lead a normal life by enabling them to use digital tools to interact with others. 
+    </li>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
