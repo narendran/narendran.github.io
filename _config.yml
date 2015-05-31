@@ -1,0 +1,12 @@
+# Site settings
+title: Narendran Thangarajan blog
+email: naren@cs.ucsd.com
+description: > # this means to ignore newlines until "baseurl:"
+  Journey of an engineer.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ntvita.com" # the base hostname & protocol for your site
+twitter_username: naren_live
+github_username:  narendran
+
+# Build settings
+markdown: kramdown
