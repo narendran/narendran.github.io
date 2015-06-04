@@ -67,6 +67,10 @@ ul, ol {
     margin-left: $spacing-unit;
 }
 
+.posts {
+    margin-left: 0;
+}
+
 li {
     > ul,
     > ol {
@@ -154,8 +158,9 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    /* max-width: -webkit-calc(#{$content-width});
+    max-width:         calc(#{$content-width}); */
+    max-width: 80%;
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
