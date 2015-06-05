@@ -2,7 +2,7 @@
 layout: post
 title:  "MongoDB vs. RethinkDB"
 excerpt: "I compared document-oriented NoSQL databases, MongoDB and RethinkDB, in terms of data model, query language and performance and discuss the pros and cons."
-date:   2015-06-01 18:00:00
+date:   2015-06-04 16:00:00
 ---
 
 As a student, I prefer building prototypes before building the full-fledged systems. So when it comes to choice of data storage, firstly, I would prefer having no schema enforced on my data since it will almost always change with time. Secondly, once the system is up and running, I would expect robust data collection, efficient querying and easy-to-use analytics systems to make sense of the data. Ever since MongoDB was initially released in 2009, I have always used it for all my personal and research projects. However nowadays, I have started seeing a lot of blog posts which complain about the performance of MongoDB. So in this blog post, I attempt to study and compare document-based databases MongoDB and the recent favorite, RethinkDB, since I am starting to consider RethinkDB for my future projects (despite it has been around since 2012). One common paradigm which I like in both is that they store data in the same way it is (most likely) used in the application layer, i.e. as JSON documents, reducing impedance mismatch in data representation.
