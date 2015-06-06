@@ -10,11 +10,11 @@ As a student, I prefer building prototypes before building the full-fledged syst
 
 # Philosophy
 
-RethinkDB, which has been in active development for three years now, was designed with a _bottom-up_ perspective with the design goals of ease of use, high availability and high scalability in mind. From the MongoDB architecture guide, we can understand that MongoDB was designed _top-down_ by taking an existing system (like MySQL) and enhancing it with dynamic schemas which still providing the relational database features like indexes and updates.
+RethinkDB, which has been in active development for three years now, was designed with a _bottom-up_ perspective with the design goals of ease of use, high availability and high scalability in mind. From the MongoDB architecture guide, we can understand that MongoDB was designed _top-down_ by taking an existing system (like MySQL) and enhancing it with dynamic schemas while still providing the relational database features like indexes and updates.
 
 # Data Model
 
-First lets, talk about the physical data model. In MongoDB, data is stored as [BSON](http://bsonspec.org) documents while in RethinkDB, data is stored as JSON documents. One of the advantage of BSON documents is that in addition to the existing JSON datatypes (string, number, object, array, boolean and null) it provides int, long and double types. The full list of BSON types can be found [here](http://docs.MongoDB.org/manual/reference/bson-types/). This enables more granular comparison (and hence sorting) of data. For instance, since MongoDB comes with an inbuilt `date` type, it is straight-forward to construct date range queries which I have found to be very useful while working with Twitter data for my recent projects.
+Firstly, lets talk about the physical data model. In MongoDB, data is stored as [BSON](http://bsonspec.org) documents while in RethinkDB, data is stored as JSON documents. One of the advantage of BSON documents is that in addition to the existing JSON datatypes (string, number, object, array, boolean and null) it provides int, long and double types. The full list of BSON types can be found [here](http://docs.MongoDB.org/manual/reference/bson-types/). This enables more granular comparison (and hence sorting) of data. For instance, since MongoDB comes with an inbuilt `date` type, it is straight-forward to construct date range queries which I have found to be very useful while working with Twitter data for my recent projects.
 
 Secondly, talking about conceptual data model, both RethinkDB and MongoDB are pretty simple. From MongoDB's [documentation](http://www.mongodb.org/about/introduction/#mongodb-data-model): 
 
