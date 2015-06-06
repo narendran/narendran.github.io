@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "MongoDB vs. RethinkDB"
 excerpt: "I studied and compared document-oriented NoSQL databases, MongoDB and RethinkDB, in terms of data model, query language and performance and discuss the pros and cons of each."
 date:   2015-06-04 16:00:00
