@@ -14,13 +14,15 @@
       </a>
 
       <div class="trigger">
-          <a class="page-link" href="/blogs.html">Blogs</a>
+      <a class="page-link" href="/">About</a>
+      <a class="page-link" href="http://narnicles.wordpress.com">On Life</a>
+          <a class="page-link" href="/blogs.html">On Technology</a>
         {% for page in site.pages %}
           {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          <!-- <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a> -->
           {% endif %}
         {% endfor %}
-        <a class="page-link" href="/">About Me</a>
+        
       </div>
     </nav>
 
