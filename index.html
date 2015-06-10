@@ -3,9 +3,16 @@ layout: default
 ---
 
 <div class="home">
-  I am a second year graduate student at UC San Diego. I am interested in systems, networks and machine learning. I am advised by <a href="http://weibel.ucsd.edu/">Dr. Nadir Weibel</a>.
-
-  <br/><br/>
+<table>
+<tr><td style=" padding : 20px;">
+<img src="/images/naren.jpg" style="width: 100%; border: 1px black; "></td>
+<td><h2>About Me</h2>
+  I am a second year graduate student at UC San Diego. I am interested in systems, networks and machine learning. I am advised by <a href="http://weibel.ucsd.edu/">Dr. Nadir Weibel</a>.  I will be joining Google (Mountain View, CA) as a software engineer starting August, 2015.
+</td>
+</tr>
+</table>
+</div>
+<div style="margin-top:10px;">
   <h2>Current Projects</h2>
   <ul class="projects">
     
@@ -21,4 +28,23 @@ layout: default
 
   </ul>
 
+  <div id="timesheet"></div>
+
 </div>
+
+<script src="/js/timesheet.js" type="text/javascript" />
+<script type="text/javascript">
+  new Timesheet('timesheet-default', 2002, 2013, [
+  ['2002', '09/2002', 'A freaking awesome time', 'lorem'],
+  ['06/2002', '09/2003', 'Some great memories', 'ipsum'],
+  ['2003', 'Had very bad luck'],
+  ['10/2003', '2006', 'At least had fun', 'dolor'],
+  ['02/2005', '05/2006', 'Enjoyed those times as well', 'ipsum'],
+  ['07/2005', '09/2005', 'Bad luck again', 'default'],
+  ['10/2005', '2008', 'For a long time nothing happened', 'dolor'],
+  ['01/2008', '05/2009', 'LOST Season #4', 'lorem'],
+  ['01/2009', '05/2009', 'LOST Season #4', 'lorem'],
+  ['02/2010', '05/2010', 'LOST Season #5', 'lorem'],
+  ['09/2008', '06/2010', 'FRINGE #1 & #2', 'ipsum']
+]);
+</script>
