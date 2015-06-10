@@ -2,7 +2,7 @@
 title: Narendran Thangarajan
 email: naren@cs.ucsd.com
 description: > # this means to ignore newlines until "baseurl:"
-Making the internet faster and safer.
+  Making the internet faster and safer.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ntvita.com" # the base hostname & protocol for your site
 twitter_username: naren_live
