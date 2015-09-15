@@ -16,6 +16,10 @@ RethinkDB, which has been in active development for three years now, was designe
 
 Firstly, lets talk about the physical data model. In MongoDB, data is stored as [BSON](http://bsonspec.org) documents while in RethinkDB, data is stored as JSON documents. One of the advantage of BSON documents is that in addition to the existing JSON datatypes (string, number, object, array, boolean and null) it provides int, long and double types. The full list of BSON types can be found [here](http://docs.MongoDB.org/manual/reference/bson-types/). This enables more granular comparison (and hence sorting) of data. For instance, since MongoDB comes with an inbuilt `date` type, it is straight-forward to construct date range queries which I have found to be very useful while working with Twitter data for my recent projects.
 
+<div style="background-color:rgba(0, 0, 200, 0.1); vertical-align: middle; padding:20px; margin: 10px; border-radius: 15px;">
+<b>@coffeemug:</b>  RethinkDB implements an extended version of JSON, so it supports additional data types (like dates, geometric primitives, etc.) It isn't necessarily better or worse than BSON -- there are a few nuanced tradeoffs (e.g. JSON library implementations in languages with smaller ecosystems are better), but from the functionality perspective both approaches are very similar.
+</div>
+
 Secondly, talking about conceptual data model, both RethinkDB and MongoDB are pretty simple. From MongoDB's [documentation](http://www.mongodb.org/about/introduction/#mongodb-data-model): 
 
 > A MongoDB deployment hosts a number of databases. A database holds a set of collections. A collection holds a set of documents. A document is a set of key-value pairs. Documents have dynamic schema.
@@ -42,7 +46,11 @@ MongoDB Unacknowledged (115.00 us : memory, maybe) | MongoDB Acknowledged (265.2
 :---------------:|:---------------:|:-------------------:|
 ![Unacknowledged](https://raw.githubusercontent.com/narendran/blogs/master/mongo-vs-rethink/plots/mongo_writes_w0.png)|![Acknowledged](https://raw.githubusercontent.com/narendran/blogs/master/mongo-vs-rethink/plots/mongo_writes_w1.png)|![Journaled](https://raw.githubusercontent.com/narendran/blogs/master/mongo-vs-rethink/plots/mongo_writes_w1_jTrue.png)
 
-So the right way to compare with RethinkDB's write performance would be with the _Journaled_ write concern which actually persists data to disk (which is RethinkDB's default write behaviour). In terms of speed of persistent writes, RethinkDB wins. However, in terms of choice of persistence, MongoDB's write concern feature makes it a clear winner.
+So the right way to compare with RethinkDB's write performance would be with the _Journaled_ write concern which actually persists data to disk (which is RethinkDB's default write behaviour). In terms of speed of persistent writes, RethinkDB wins. Thanks to the recent comment from RethinkDB cofounder @coffeemug, I realized that RethinkDB also offers more flexibility when it comes to writes.
+
+<div style="background-color:rgba(0, 0, 200, 0.1); vertical-align: middle; padding:20px; margin: 10px; border-radius: 15px;">
+<b>@coffeemug:</b>  RethinkDB also offers a way to configure the write mode (see the `durability` option in <a href="http://rethinkdb.com/api/javascript/run/">http://rethinkdb.com/api/javascript/run/</a> and `write_acks` option in <a href="http://rethinkdb.com/docs/consistency/">http://rethinkdb.com/docs/consistency/</a>). Everything is fully configurable, and there is full support for high availability in case of hardware failure.
+</div>
 
 #### Read performance
 
