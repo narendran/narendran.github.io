@@ -57,7 +57,7 @@ So the right way to compare with RethinkDB's write performance would be with the
 For studying the read performance in both databases, the generated primary key fields were used for reading a single document. MongoDB generates a __id_ field and RethinkDB generates a _id_ field when a primary key is not part of the input document.
 
 <div style="background-color:rgba(0, 0, 200, 0.1); vertical-align: middle; padding:20px; margin: 10px; border-radius: 15px;">
-<b>Update:</b> The following readings were updated after the RethinkDB team reported about the problem with using "find()" to retrieve documents form mongoDB. The script has been updated to ensure that data is loaded to memory.
+<b>Update:</b> The following readings were updated after the RethinkDB team reported about the problem with using "find()" to retrieve documents from mongoDB. Based on that, the script used for measuring has been updated to ensure that data is loaded to memory.
 </div>
 
 MongoDB reads (cached) (Avg. : 270.77 us)	| 	MongoDB reads (not cached) (Avg. : 452.54 us)
