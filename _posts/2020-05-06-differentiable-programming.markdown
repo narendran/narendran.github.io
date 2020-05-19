@@ -5,7 +5,7 @@ date:   2020-05-06 18:00:00
 categories: differentiable-programming software future
 ---
 
-In the last couple of years, I've had the opportunity to focus full-time on keeping up with the latest developments in machine learning (ML). Fortunately, I've been able to improve some highly-used software systems using that knowledge. When building intelligent systems today, there is a discontinuity in thought and software development process which feels unnatural to me. The discontinuity is between the standard Java/C++/Python/Go programs we write in classical notion of software engineering and the artifacts of ML (i.e. learned models). This article is a collection of ideas related to differentiable programming and how it can address that gap.
+In the last couple of years, I've had the opportunity to improve some highly-used software systems using recent developments in machine learning (ML). Amidst all the noise in developing and deploying ML models, there is an obvious discontinuity in thought-process and actual software development which has felt unnatural to me. The discontinuity is between the Java/C++/Python/Go programs we write as part of standard software development and the artifacts of ML (i.e. learned models). In this post, I will explain this discontinuity and a potential opportunity to address it using differentiable programming.
 
 [6 minute read]
 
@@ -13,7 +13,9 @@ In the last couple of years, I've had the opportunity to focus full-time on keep
 
 # What is Differentiable Programming
 
-Differentiable programming allows you to write computer programs that could be differentiated with respect to their inputs. This has been possible for decades now -- we can use numerical approximations to differentiation which suffers from inaccuracies or using symbolic differentiation techniques like what is done in Python's SymPy package and in Wolfram which suffer from lack of speed and flexibility required for more practical applications. Recent improvements in Automatic Differentiation has allowed libraries like AutoDiff, AutoGrad, and JAX (which is used in this post) to address this concern enabling differentiation in mainstream software development. Following is a very simple example of a differentiable program. By the end of this blog post, I will give an idea of how composing such programs can enable us to build systems which were hitherto unachievable.
+Differentiable programming allows you to write computer programs that could be differentiated with respect to their inputs. This has been possible for decades now either via numerical approximations to differentiation (which suffers from inaccuracies) or using symbolic differentiation techniques like what is done in Python's SymPy package and in Wolfram (which suffer from lack of speed and flexibility required in practice). Recent improvements in Automatic Differentiation has allowed libraries like AutoDiff, AutoGrad, and JAX (which is used in this post) to address these concerns enabling differentiation as a first-class tool in mainstream software development.
+
+Following is a very simple example of a differentiable program. By the end of this post, I will give an idea of how composing such simple programs enables us to build software systems which were hitherto inconceivable.
 
 ```python
 def squared(x):
@@ -24,22 +26,22 @@ print(grad(squared)(4)) #  First order derivative = 2*x = 8
 print(grad(grad(squared))(4)) #  Second order derivative = 2 for all values of x.
 ```
 
-# Current Applications of derivatives: Natural Sciences, Finance
+# Current Applications and State of Differentiable Programs
 
-Differentiation has been widely applied in scientific computing for decades now. Following are some examples, but you can find more in [1]:
+Differentiation has been largely applied in scientific computing for decades now. Following are some domains where it is used today, and you can find more in [1]:
 1. [Finance] Black Scholes equation for pricing options.
 2. [Physics] Equation of motion, Heat dissipation, Brownian motion.
-3. [Biology] Population growth models, neuron action potentials.
-4. [Chemistry] Rate equation - rate of change of concentration of reactants and products.
+3. [Biology] Population growth models, Neuron action potentials.
+4. [Chemistry] Rate equation to predict rate of change of concentration of reactants and products.
 5. [Archaeology] Carbon dating.
 
-We have had programming languages for this atleast since the mid-1950s with the introduction of Fortran. But the landscape has evolved a lot since then. Today, there are Domain Specific Languages like MatLab, R, Julia and Wolfram. Fortran itself would fall in this class. There are also General Purpose Programming languages like C++ and Python which have extensions to perform efficient scientific computing. E.g. Python has specialized libraries like Numpy, Scipy, Sympy, Sklearn, Pandas, great plotting libraries like matplotlib and to help scientists communicate better, we have literate programming tools like iPython and Jupyter Notebooks.
+Today, there are Domain Specific Languages like MatLab, R, Julia and Wolfram, and General-purpose Programming Languages like C++ and Python which have extensions to perform differentiation and other techniques required for scientific computing. E.g. Python has specialized libraries like Numpy, Scipy, Sympy, Sklearn, Pandas, great plotting libraries like matplotlib and to help scientists communicate better, there are literate programming tools like iPython and Jupyter Notebooks. However, when thought about in context of mainstream software development, they suffer from the following two problems.
 
-To make the conversation easier, let's pick a specific area and programming language. Let's talk about the plethora of work being done on Machine Learning (ML) using Python. Firstly, I still see a dochotomy in thought and in code from where science ends and software begins today. For instance, where do a TF SavedModel or pickled PyTorch models fit today? At best, you can think of the model as a learned function with clean API's, but still these extensions and DSLs are currently being viewed and used as blackbox function approximators. We still need to worry about reshaping tensors, writing SWIG wrappers to move between languages etc.
+Firstly, to make the discussion easier, let's pick a specific area and programming language say Supervised ML and Python. There is a dichotomy in thought and code when we think about where our classical programs end and supervised intelligence begins today. For instance, where do TensorFlow SavedModels and pickled PyTorch models fit in our software today? At best, we can think of them as opaque learned functions with rigid expectations of input and output. If I have to modify their functionality a little bit, there is a completely different set of tools and terminology we have to work with. This dichotomy shows through right from the code, to the developers' perception all the way to job listings from companies (like SWE, SWE-ML, ML-SWE, Research Engineer, Applied Scientist in ML etc.) and university courses/programs.
 
-Secondly, these frameworks are too complex and have too many assumptions. At least the latter can be worked around by using more primitive components of the framework like TF. But still, I would argue the complexity remains: When I started working on ML (~2 years back) I was astounded at the level of complexity TF incorporated. Is it a library? Is it a runtime? Is it a programming language? Is it even Python? Why is such complexity required. It is to provide speed and flexibility. Numerics, derivatives and parallelism (https://julialang.org/blog/2017/12/ml-pl/#fnref:tf). We got Numpy to take care of the Numerics. *Automatic Differentiation* to the rescue for derivatives and parallelism! Dynamic graph computation started using AD in 2017 [paper].
+Secondly, today's Supervised ML frameworks are too complex and have too many assumptions (contributing to the dichotomy mentioned above). The latter can be worked around by using more granular components of the framework like TensorFlow when available. The argument on complexity still remains: When I got introduced to ML, I was astounded at the level of complexity libraries like Tensorflow and PyTorch had. What would I call them - library/runtime/programming language? Is it even Python? Even before I answered those questions, I had gotten used to the flow and deferred that inkling. Over time, I realized that bringing together the core pieces required for mainstream differentiable programming is non-trivial. As this [blog from Julia team](https://julialang.org/blog/2017/12/ml-pl/#fnref:tf) puts it, the core pieces are numerics, derivatives and parallelism.
 
-<JIT graph>
+I am excited to see the full, coherent suite coming together in Python. There is Numpy to take care of the numerics and excellent Automatic Differentiation libraries to take care of the derivatives and parallelism aspects while also allowing flexibility by differentiating through programming constructs like variables, loops and conditionals. Yay!
 
 # Using Differentiation as a first-class programming primitive
 
@@ -67,13 +69,11 @@ To expand from the example where we bias a learning program using a sine curve, 
 
 To get more grand, AutoPilot - Plug in high-precision rules or even better, models for individual aspects of driving into a differentiable program. The components could be how a stop sign or traffic lights look like.
 
-# Building intelligent software systems
+# Closing Thoughts
 
-Differentiable programming completely blurs the lines between engineering and intelligence and allows us to model seemingly all possible physical processes more efficiently with known biases. Imagine what all we could build now! A learning program does not have to be grand -- there are also more day-to-day engineering problems like optimizing the size of the thread pool and determining time to outage as seen from Sumit Nigam's book. These are very useful problems that can be solved more efficiently with derivatives. This paradigm of programming lets us leverage all the amazing things we have done with converting physical processes into programs so far, and quickly build more complex and hitherto hard-to-implement systems on top of it. This is a direction I am super-excited about since it radically opens up the domain of things we can make automate and make more efficient as engineers.
+I believe the paradigm of differentiable programming can address the aforementioned discontinuity in modern software systems. To begin with, a differentiable program does not have to be as grand as the Tesla AutoPilot -- there are day-to-day heuristics-based engineering solutions like thread pool size optimization and service outage prediction [Sumit Nigam] which can solved more correctly and elegantly with differentiable programs. What is more beautiful is that besides democratizing the idea of continuously evolving programs, differentiable programming lets us leverage all the amazing things we have built already instead of learning from scratch all the time. Now, let's differentiate some bread toasters and throw in the heat equation!
 
 *If our small minds, for some convenience, divide this glass of wine, this universe, into parts -- physics, biology, geology, astronomy, psychology, and so on -- remember that nature does not know it! - Richard P. Feynman*
-
-(This is a living blog, and I will keep updating this blog post as I come to know any developments in this direction. Stay tuned.)
 
 # References
 
