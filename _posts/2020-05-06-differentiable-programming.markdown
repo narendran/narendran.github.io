@@ -2,7 +2,7 @@
 layout: post
 title:  "The Differentiable Bread Toaster: A Discontinuity in Modern Software Systems"
 date:   2020-05-20 10:00:00
-categories: differentiable-programming software future
+categories: programming
 ---
 
 In the last couple of years, I've had the opportunity to improve some highly-used software systems applying recent developments in machine learning (ML). Amid all the joys and the noise in developing and deploying ML models in production, there is a nagging discontinuity in both the thought-process and actual software development which has felt unnatural to me. The discontinuity is between the Java/C++/Python/Go programs we write as part of standard software development and the artifacts of ML i.e. learned models. In this post, I will quickly describe the problem and a potential opportunity to address it using differentiable programming.
