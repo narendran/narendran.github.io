@@ -74,7 +74,7 @@ Now, nobody really trains you for making these decisions. You sort of stumble up
 
 Here is yet-another-30-year old contemplating on the top two life lessons from a decade of independent decision making. That said, I have absolutely no regrets -- and I wouldn't go back to my 20yo self and share these lessons.
 
-# Learning #1: Logic Fails
+# Learning #1: Logic Can Fail
 
 Logic fails in surprising ways.
 
@@ -110,27 +110,34 @@ This experience, though second-hand, is so powerful to etch the importance of ha
 Following is a sample of ideologies which have morphed to different shapes in the last 10 years.
 
 **On God**
-<div style="font-style: italic; padding-left: 2em;">
-  "I do not care if there is a God or not" <br /><br />
-  "I seek scientific truth. Where is God? I do not see Him :D If there is no evidence, then God simply does not exist. The end." <br /><br />
-  "You should watch the interviews by Richard Dawkins" <br /><br />
-  "If there was a God, He wouldn't let his people suffer. Would He?"<br /><br />
-  "Why do you have to bribe God in temples. Don't you understand this is just a business transaction at this point?" <br /><br />
-  "I've never thought harm to an ant, why did he break my ankle and make me bed-ridden for months?"<br /><br />
-  "The concept of God can blind people from looking further into the truth. Why do we want to encourage a generation of kids to grow up that way?!"<br /><br />
-  "Ok, God applies to you. I do not need Him though. I won't scoff at people who need Him."<br /><br />
-  "See, why do I need a God while science can/will fully explain the universe?" <br /><br />
-  "Damn! I think I get it. I will shut up now."
+
+Following are some of my own quotes from the past decade in chronological order:
+<div style="font-style: italic; padding-left: 2em;"><ul>
+  <li>"I do not care if there is a God or not. Why are people so obsessed about it?"
+  <li>"Seek scientific truth. Where is God? Do you see Him? Has anyone seen Him at all?"
+  <li>"If there is no evidence, then God simply does not exist. The end."
+  <li>"Have you even listened to Richard Dawkins"
+  <li>"See, why do I need a God while science can/will fully explain the universe?"
+  <li>"If there was a God, He wouldn't let his people suffer. Would He?"
+  <li>"Why do you have to bribe God in temples. Don't you understand this is just a business transaction at this point?"
+  <li>"I've never thought harm to an ant, why did he break my ankle and make me bed-ridden for months?"
+  <li>"The concept of God blinds children from looking further into the truth!"
+  <li>"Ok, God might apply to you. I do not need Him though. That said, I won't scoff at people who need Him."
+  <li>"Damn! I think I get it. I will shut up now."
+  </ul>
 </div>
-<br /><br />
+<br />
+
+Explaining the transitions would take another essay, but you can see the gradual change in attitude and reliance of pure logic.
 
 **On problem solving**
 
 
 
-Of course, this is not the exhaustive list where logic has failed. I've made embarrassing blunders being logically right in various walks of life including . As you grow older you will gradually build a categorized understanding of when all logic can fail. The top 2 categories that come to my mind are the following.
-1. Deep-seated beliefs: When someone has lived a substantial part of their lives guided by a deep-seated belief, you cannot take them out of it. They could feel that we are nullifying a significant part of their life experiences by doing that. Once you convince yourself that life is about co-thriving happily more than being "right" in some contrived sense of it, your logic will start taking a back-seat when appropriate.
-2. Longevity of human life: Some personal problems take **years** to fix. Yes, you read it right, YEARS. But depending on the thing or person you are changing, this is completely worth the effort.
+Of course, this is not the exhaustive list of places where logic has failed me. I've embarrassed myself multiple times by being logically right and it has led to broken relationships, . As you grow older you will gradually build a categorized understanding of when all logic can fail. The top 3 categories that come to my mind are the following.
+1. Lack of full information: Logic provides guarantee of correctness with complete information. But in real-life you never have complete information on anything you make decisions on.
+2. Deep-seated beliefs: When someone has lived a substantial part of their lives guided by a deep-seated belief, you cannot take them out of it. They could feel that we are nullifying a significant part of their life experiences by doing that. Once you convince yourself that life is about co-thriving happily more than being "right" in some contrived sense of it, your logic will start taking a back-seat when appropriate.
+3. Longevity of human life: Some personal problems take **years** to fix. Yes, you read it right, YEARS. But depending on the thing or person you are changing, this is completely worth the effort.
 
 # Learning #2: Embrace Grey
 
