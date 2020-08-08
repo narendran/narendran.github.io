@@ -24,12 +24,14 @@ It concludes the first decade of a completely independent life. At this point, y
 * Got admits! Which one to go to?
 * Should I get an education loan or see what luck has for me with on-campus jobs?
 * Which team should I join for the group project?
+* Hmm, I don't have a side hustle yet and I don't have money for next quarter's tuitions -- should I silently go back home after this quarter?
 * Everyone in college looks so cool and confident. What should I do to feel less awkward?
-* Yay! Internship money! Should I spend it on traveling or save it up for a visit to my hometown?
 * Should I get a 6-inch from Subway and look cool in front of my new friends or get a foot-long and secretly hide half of it for dinner?
 * Which career path should I take after graduation?
 * Which shirt should I wear for that job interview?
 * Which of these opportunities promises a happy life and secure future?
+* Yay! First salary! Should I spend it on traveling or save it up for rainy days?
+* Where should I put this $100 - retirement account, stock/options trading, mortgage payments, better health insurance, 6-month emergency fund?
 * Do I need external monitors?
 * Its 9 am, check email or get some work done?
 * Should we hire X or not?
@@ -53,6 +55,7 @@ It concludes the first decade of a completely independent life. At this point, y
 * Canoeing or Kayaking?
 * AirBnb or Holiday Inn? Car camping or RV?
 * Is Top of the Rock worth the money?
+* Damn, I broke my legs! Drop-in at my doctor's place or urgent care or emergency or call 911?
 * Should I get a pet?
 * Should I have a kid?
 * Which of the 8 different genetic tests do I want to take?
@@ -66,7 +69,7 @@ It concludes the first decade of a completely independent life. At this point, y
 * Which school district do I want?
 * ...
 
-Well, you get it. Note that I have not even touched upon areas like personal health, personal finance, etc. Hopefully you are convinced now that I was not exaggerating about the "thousands" of decisions. And yes, you made all those decisions! How cool is that? And all these decisions, though simple and innocent in appearance, have significant repercussions on your life. These decisions define who you are. And that is exactly why turning 30 is a significant milestone in the formation of your own identity.
+Well, you get it. Hopefully you are convinced now that I was not exaggerating about the "thousands" of decisions. And yes, you made all those decisions! How cool is that? And all these decisions, though simple and innocent in appearance, have significant repercussions on your life. These decisions define who you are. And that is exactly why turning 30 is a significant milestone in the formation of your own identity.
 
 Now, nobody really trains you to make these decisions. You sort of stumble upon them and figure it out on the way. By the time you are 30, you have automatic responses to many of the above questions and spend your precious mental energy on the remaining new and exciting questions. No big deal, life moves on and you stumble on more unseen experiences. And as you might expect such a way of life will have ups and downs by design leading to moments of pride and pondering. On that note, I would like to contemplate on the top two life lessons from my decade of independent decision making: Logic Can Fail and Embrace Grey.
 
@@ -84,19 +87,19 @@ This is probably the biggest class of logic failures.
 
 Logic provides guarantee of correctness when provided with complete information. But in real-life you never have complete information on anything you make decisions on. Even when you have all the relevant people in the room, there is no reason they should share all their knowledge, their feelings and more importantly, their deep-rooted insecurities with you. And many times you just won't have the time and resources to hunt down all the relevant information. Logic can only do so much in this setting.
 
-Turns out as you grow older you construct an extensive graph of probabilities and mental models of what can and cannot happen with people and with things. This makes decision making increasingly easy and accurate over time. So, keep learning from your own and others' lives and when it comes to decision making, stay open to the fact that you could be missing/misunderstanding critical details.
+Turns out as you grow older you naturally build an extensive graph of probabilities and useful mental models on what can and cannot happen in life. This makes decision making more accurate and easier over time. You stop judging people and see yourself saying "it happens" often. So, keep learning from your own and others' lives and when it comes to decision making, stay open to the fact that you could be missing/misunderstanding critical details.
 
 ## Logic Fails... Due to Band-Aid Situations
 
-There are times when you feel you have all the information in hand, but you simply don't want or don't have the time to fix the problem.
+There are times when you feel you have all the information in hand, but you simply don't want or don't have the time to fix the problem. This shows up a lot in relationships in life and work.
 
 In engineering, there is a method of problem solving called [Root Cause Analysis](https://en.wikipedia.org/wiki/Root_cause_analysis) which involves identifying the root cause of a problem and then performing corrective actions to prevent re-occurrence. Some problems in life could take months of Root Cause Analysis and then could take years to fix. Yes, you read it right, YEARS. And depending on the thing or (more likely) the person you are acting upon, this could be completely worth the effort. However, you will often run into cases when you should deliberately accept failure of logic owing to lack of time where you disagree, shake hands and move on without fixing the root cause. When the problem surfaces again, you do the same -- just patch it and move on. I call these **band-aid situations**.
 
 Applying a band-aid does not mean lack of courage or perseverance on your part. In fact, more often than you think, this is good for both yourself and the others involved.
 
-## Logic Fails... Due to Deep-Seated Beliefs
+## Logic Fails... Due to Deep-Rooted Beliefs
 
-In the last decade, I've moved from making fun of deep-seated beliefs my parents espoused, to convincing myself that I would recommend the same to my next generation (and be that "out-dated, unscientific, illogical" parent for the next couple of decades). I like to call this class of logic failures as "subconscious safety nets" due to their ability to protect you from your conscious, rational self.
+In the last decade, I've moved from making fun of deep-rooted beliefs my parents espoused, to convincing myself that I would recommend the same to my next generation (and be that "out-dated, unscientific, illogical" parent for the next couple of decades). I like to call this class of logic failures as "subconscious safety nets" due to their ability to protect you from your conscious, rational self.
 
 On the topic of buying **Gold**, following used to be a very typical conversation between me and my dad.
 
@@ -141,15 +144,15 @@ Let's talk about the Grey between the black and white.
 
 So, get comfortable with grey and when given options A and B, choose C. Your identity is pretty much where you fall in this infinite-dimensional spectrum of grey. As you grow older you will add more dimensions and higher resolution to each of the spectrums, and continue taking a stand on where you fall within each of them making life richer and easier in the process.
 
-# Closing Thoughts
+# Closing Thoughts: Living Fully
+
+With the human life expectancy of ~79 years ([CDC](https://www.cdc.gov/nchs/fastats/life-expectancy.htm)), turning 30 is a moment when you realize that life is short and long at the same time. I've always lived in competitive environments from my early childhood. I've forever been driven to reach some "goal" at any point in my life -- get 100/100 marks, get that gold medal, get into a top university, get hired by a top company, get promoted every 2 years, etc. If I reach the goal I am awesome and acknowledged, otherwise I am a disaster and should rethink the purpose of my life. Interestingly, the society keeps manufacturing and surfacing these "goals" and has well-established, evolved multi-agent processes and reward structures around it. I kept my heads down and slogged tirelessly to see the end of this tunnel so I can finally start to... you know.. live. Somewhere in this daisy-chained rat race, my parents felt I was doing great on my own and let me drive by myself. *Wait, what?! Where are you going?*
 
 <div style="background-color:rgba(0, 0, 200, 0.1); vertical-align: middle; padding:20px; margin: 10px; border-radius: 15px;">
   "The journey is the destination"
   - Dan Eldon
 </div>
 
-With the human life expectancy of ~79 years ([CDC](https://www.cdc.gov/nchs/fastats/life-expectancy.htm)), turning 30 is a moment when you realize that life is short and long at the same time. I've always lived in competitive environments from my early childhood. I've forever been driven to "reach" some destination at any point in my life - get 100/100 marks, get that gold medal, get into a top university, get hired by a top company, get promoted every 2 years, etc. Somewhere in this daisy-chained optimization rat race, my parents felt I was doing great on my own and let me drive by myself.
+By the time you are 30, you know a lot more about what you really want and what the world can offer. You realize that the world can give you a much richer and fuller life if you simply pause occasionally, look around, take a detour and smell those byway flowers rather than repeatedly devise optimized route plans and drive straight to the made-up destinations. It's the journey that matters. Note that this does not mean you become less ambitious, in fact surprisingly you become highly ambitious on a lot of things.
 
-By the time you are 30, you know a lot more about yourself and about what the world can offer. You will realize that the world can give you a life way richer if you simply pause, look around and smell those flowers rather than continually devising optimized route plans and driving directly to the made-up destinations and repeating it. Its the journey that matters. This does not mean you become less ambitious, in fact surprisingly you become highly ambitious on a lot of things.
-
-Looking forward to strolling through the next decade of life!
+Looking forward to the next decade of life!
