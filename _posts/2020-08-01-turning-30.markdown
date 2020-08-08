@@ -82,7 +82,7 @@ This is how I would describe my 25-year-old self: I have lived for 25 long years
 
 In a nutshell, I felt simply invincible. Each time I crushed an argument, and put the other person out of words, the implicit feedback I got only reinforced my already strong convictions. I was right. I was right EVERY SINGLE TIME. Except that... I utterly failed. Turns out, each time the argument ended, the other person had simply given up on me or in case of my parents, punted the discussion to a later time when I am more mature. You can be right, and still fail spectacularly.
 
-## Logic Fails... Due to Lack of Full Information
+### Logic Fails... Due to Lack of Full Information
 
 This is probably the biggest class of logic failures.
 
@@ -90,7 +90,7 @@ Logic provides guarantee of correctness when provided with complete information.
 
 Turns out as you grow older you naturally build an extensive graph of probabilities and useful mental models on what can and cannot happen in life. This makes decision making more accurate and easier over time. You stop judging people and see yourself saying "it happens" often. So, keep learning from your own and others' lives and when it comes to decision making, stay open to the fact that you could be missing/misunderstanding critical details.
 
-## Logic Fails... Due to Band-Aid Situations
+### Logic Fails... Due to Band-Aid Situations
 
 There are times when you feel you have all the information in hand, but you simply don't want or don't have the time to fix the problem. This shows up a lot in relationships in life and work.
 
@@ -98,7 +98,7 @@ In engineering, there is a method of problem solving called [Root Cause Analysis
 
 Applying a band-aid does not mean lack of courage or perseverance on your part. In fact, more often than you think, this is good for both yourself and the others involved.
 
-## Logic Fails... Due to Deep-Rooted Beliefs
+### Logic Fails... Due to Deep-Rooted Beliefs
 
 In the last decade, I've moved from making fun of deep-rooted beliefs my parents espoused, to convincing myself that I would recommend the same to my next generation (and be that "out-dated, unscientific, illogical" parent for the next couple of decades). I like to call this class of logic failures as "subconscious safety nets" due to their ability to protect you from your conscious, rational self.
 
