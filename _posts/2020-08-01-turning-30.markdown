@@ -3,6 +3,7 @@ layout: post
 comments: false
 title:  "Turning 30"
 date:   2020-08-01 10:00:00
+excerpt: "A personal essay where I write about what turning 30 means to me, the decisions made, and the lessons learnt from the last decade in life."
 ---
 
 Today, I turn 30.
