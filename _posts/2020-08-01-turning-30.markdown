@@ -7,7 +7,7 @@ date:   2020-08-01 10:00:00
 
 Today, I turn 30.
 
-I have been getting a lot of "You are 30 now! How do you feel?" and my answer has been simply "older". This blog is an attempt to understand what getting "older" and especialy what turning 30 means. This essay might make more sense if you are already like 25+ and I hope it is useful otherwise too.
+I have been getting a lot of "You are 30 now! How do you feel?" and my answer has been simply "older". This blog is an attempt to understand what getting "older" and especially what turning 30 means. This essay might make more sense if you are already like 25+ and I hope it is useful otherwise too.
 
 Almost a decade back, I had written a similar blog about [turning 20](https://narnicles.wordpress.com/2011/09/04/life-lessons-what-i-learnt-from-my-20-year-experience-on-earth/) which made for a fun read a few days back. Hopefully this blog is less embarrassing than that.
 
@@ -17,7 +17,7 @@ Almost a decade back, I had written a similar blog about [turning 20](https://na
 
 Turning 30 does mark a significant milestone in your life.
 
-It concludes the first decade of a completely independent life. At this point, you have made thousands of decisions (large and small) affecting things ranging from yourself to your family to your career and to the society at large. Besides MAKING those decisions, by the age of 30 you've had the opportunity to witness and respond to the CONSEQUENCES of thousands of such decisions. No, I do not exaggerate when I say "thousands" of decisions. Imagine the gamut of decisions you have since your early 20s, which in your teens someone else was deciding for you:
+It concludes the first decade of a completely independent life. At this point, you have made thousands of decisions (large and small) affecting things ranging from yourself to your family to your career and to the society at large. Besides MAKING those decisions, by the age of 30 you've had the opportunity to witness and respond to the CONSEQUENCES of thousands of such decisions. No, I do not exaggerate when I say "thousands" of decisions. Imagine the gamut of decisions you have taken since your early 20s, which in your teens someone else was deciding for you:
 
 **On Education and Work**:
 * Which university should I apply to?
@@ -75,7 +75,7 @@ Now, nobody really trains you to make these decisions. You sort of stumble upon 
 
 # Learning #1: Logic Can Fail
 
-Logic fails in surprising ways.
+Logic fails in surprising ways. By logic, I mean being too smart.
 
 This is how I would describe my 25-year-old self: I have lived for 25 long years now and amassed tons of personal and vicarious life experiences. I have read voraciously from verified, reliable sources. I am trained in logical and critical thinking. I am up-to-date on politics, sports, finance, technology, science etc.. I can articulate my points with impeccable logic backed by undeniable science and powerful personal/historical anecdotes.
 
@@ -120,9 +120,28 @@ The account was their safety deposit box with.. Gold.
 
 This experience, though second-hand, was so powerful to etch the importance of having an absolutely untouchable asset, an asset which can endure catastrophes of our own pristine minds and protect families and generations to come from our own selves. As you can see, you can replace Gold with any financial asset here, but in my family's case and in Raj's case Gold turned out to be the traditional choice for the untouchable asset.
 
-One another subconscious safety net where I've gone from mockery to ignoring it to outright rejection and all the way to acceptance is the role of **God** in life. It warrants another essay to talk about it. Let's leave it at that.
+One other subconscious safety net where I've gone from mockery -> ignoring it -> outright rejection -----> acceptance is the indispensable role of **God** in life.
 
-So, when you find someone, especially smart and well-meaning elders, with an irrational belief or unexplainable practice -- give them an opportunity to explain it to their best potential. There is a chance, however small, that there is an unconscious safety net for you to explore.
+Following are some of my own quotes from the past decade in chronological order on the concept of God:
+<div style="background-color:rgba(0, 0, 200, 0.1); vertical-align: middle; padding:20px; margin: 10px; border-radius: 15px; font-style: italic;"><ul>
+  <li>"I do not care if there is a God or not. Why are people so obsessed about it?"
+  <li>"Seek scientific truth. Where is God? Do you see Him? Has anyone seen Him at all?"
+  <li>"If there is no evidence, then God simply does not exist. The end."
+  <li>"Have you even listened to Richard Dawkins"
+  <li>"See, why do I need a God while science can and will fully explain the universe?"
+  <li>"If there was a God, He wouldn't let his people suffer. Would He?"
+  <li>"Why do you have to bribe God in temples. Don't you understand this is just a business transaction at this point?"
+  <li>"I've never thought harm to an ant, why did God break my ankle and make me bed-ridden for months?"
+  <li>"The concept of God blinds children from looking further into the truth!"
+  <li>"Ok, God might apply to you. I do not need Him though. That said, I won't scoff at people who need Him."
+  <li>"Damn! I get it now. God is a crucial part of a healthy society -- especially one that is 7bn+ people large."
+  </ul>
+</div>
+<br />
+
+Let's leave it at that. If you are curious to know how the last transition happened, we should meet over coffee/dinner.
+
+So, when you find someone, especially smart and well-meaning elders, with an irrational belief or unexplainable practice -- give them an opportunity to explain it to their best potential. There is a chance, however small, that there is an unconscious safety net waiting for you to explore.
 
 # Learning #2: Embrace Grey
 
@@ -132,7 +151,7 @@ Let's talk about the Grey between the black and white.
 
 * **On Conflicts: There are no Heroes and Villains**: The famous quote from Aesop goes *"A man is known by the company he keeps"* and there is a lot of truth to it. You should assume people around you to be as smart/stupid and good-intentioned as you are. In that setting, when your friends John and Jane have a conflict, it is highly unlikely that one of them is a clear villain there and do not make haste to label them as such. In fact, it is easy and interesting to do so. The truth is usually somewhere in between a Hero and Villain. As you navigate the space of evidences and decisions to solve the conflict, you will come across many, many choices of Grey. The real skill there comes in assigning each of those choices different shades of grey, make a choice and articulate them effectively. So, get comfortable in thinking and communicating Grey.
 
-* **On Measuring: There is no One Metric to rule them all**: Many times, society will lead you to believe that there is a magic number to base our decisions on and provide you products and services around that magic number. This spans across various walks of life like health, personal finance, health of relationships, nurturing kids, measuring work, optimizing investing, buying a home, tracking CoViD, and even general happiness in life. When society throws such a number at you, put it in perspective with other numbers around it (in space/time) and deliberately move it to a grey zone. I promise your decisions will be much better than otherwise.
+* **On Measuring: There is no One Metric to rule them all**: Step count alone does not determine your fitness and year-over-year profit alone does not determine long-term growth of a company. Many times, society will lead you to believe that there is a single magic number to base our decisions on and provide you products and services around that magic number. This spans across various walks of life like health, personal finance, health of relationships, nurturing kids, measuring work, optimizing investing, buying a home, tracking CoViD, and even general happiness in life. When society throws such a number at you, put it in perspective with other numbers around it (in space/time) and deliberately move it to a grey zone. I promise your decisions will be much better than otherwise.
 
 * **On being emotional: Being Dispassionate vs. Passionate**: One of the recurring themes of my 20s was experimenting between living a dispassionate vs. passionate life. You go about your life as usual - you meet your friends, you listen to their joys and sorrows, you go to work, you face ups and downs. But you can *perceive* these events either by deeply connecting with the event/person or dispassionately pass through those events emotionally unaffected. In my early 20's I was heavily influenced by Stoicism and practiced living a dispassionate life. It worked really, really well in the USA's individualistic culture for a long time. I had lots of very good friends and maintain excellent relationship with my family. I went from being single to getting married, and then one day suddenly the ideal of dispassionate living stopped working for me -- the arrival of my daughter changed things quite drastically. I cared too deeply for my daughter that I simply couldn't have my brain regulate my heart every time something unnecessary is enforced on her. I've moved considerably to the passionate side of the scale and I feel more human now.
 
