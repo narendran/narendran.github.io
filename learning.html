@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <ul class="posts">
+    {% for learning in site.learnings %}
+      <li>
+        <span class="post-date">{{ learning.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ learning.url | prepend: site.baseurl }}">{{ learning.title }}</a>
+        {{ learning.excerpt }}
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
