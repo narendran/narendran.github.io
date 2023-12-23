@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title:  "Test Learning Page"
+category: "learning"
 excerpt: "Testing out a new format to share what I read on a weekly basis"
 date:   2023-12-22 00:00:00
 ---

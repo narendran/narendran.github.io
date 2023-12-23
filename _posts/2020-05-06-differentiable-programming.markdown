@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title:  "The Differentiable Bread Toaster: A Discontinuity in Modern Software Systems"
+category: "tech"
 date:   2020-05-20 10:00:00
 ---
 

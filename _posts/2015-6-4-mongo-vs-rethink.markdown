@@ -2,6 +2,7 @@
 layout: post
 comments: true
 title:  "MongoDB vs. RethinkDB"
+category: "tech"
 excerpt: "I studied and compared document-oriented NoSQL databases, MongoDB and RethinkDB, in terms of data model, query language and performance and discuss the pros and cons of each."
 date:   2015-06-04 16:00:00
 ---
@@ -20,7 +21,7 @@ Firstly, lets talk about the physical data model. In MongoDB, data is stored as 
 <b>@coffeemug:</b>  RethinkDB implements an extended version of JSON, so it supports additional data types (like dates, geometric primitives, etc.) It isn't necessarily better or worse than BSON -- there are a few nuanced tradeoffs (e.g. JSON library implementations in languages with smaller ecosystems are better), but from the functionality perspective both approaches are very similar.
 </div>
 
-Secondly, talking about conceptual data model, both RethinkDB and MongoDB are pretty simple. From MongoDB's [documentation](http://www.mongodb.org/about/introduction/#mongodb-data-model): 
+Secondly, talking about conceptual data model, both RethinkDB and MongoDB are pretty simple. From MongoDB's [documentation](http://www.mongodb.org/about/introduction/#mongodb-data-model):
 
 > A MongoDB deployment hosts a number of databases. A database holds a set of collections. A collection holds a set of documents. A document is a set of key-value pairs. Documents have dynamic schema.
 
@@ -88,7 +89,7 @@ cur = db.capped_collection.find(tailable=True)
 
 Tailable cursors and capped collection would work only for insertions. If you are interested in all operations on the collection, the way to go is to poll the operational logs files called _oplog_. There are tools around this like [mongo-watch](https://www.npmjs.com/package/mongo-watch) to make our lives easier. And the _oplog_ way doesn't require any kind of special collections.
 
-RethinkDB provides a very intuitive way to get notifications on changes. The composability ReQL allows helps us to chain operations in any order giving us much more flexibility than what was possible with MongoDB. A simple ReQL snippet like 
+RethinkDB provides a very intuitive way to get notifications on changes. The composability ReQL allows helps us to chain operations in any order giving us much more flexibility than what was possible with MongoDB. A simple ReQL snippet like
 
 ```python
 for change in r.db("test_db").table("test_table").changes().run(connection):
