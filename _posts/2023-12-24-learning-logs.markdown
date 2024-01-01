@@ -1,10 +1,10 @@
 ---
 layout: post
 comments: true
-title:  "Learning Logs: 2023-12-25"
+title:  "Learning Logs: 2023-12-24"
 category: "learning"
 excerpt: "Mostly international news on elections and wars"
-date:   2023-12-25 00:00:00
+date:   2023-12-24 10:00:00
 ---
 
 Summary:
